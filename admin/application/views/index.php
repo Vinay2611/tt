@@ -1,0 +1,1 @@
+<section id="middle">    <div id="content" class="dashboard padding-20">        <div class="panel-body">            <p>Welcome to Typing Test</p>        </div>    </div></section>

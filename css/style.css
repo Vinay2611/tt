@@ -1,0 +1,108 @@
+body{
+    font-family: tahoma;
+}
+.header img{
+   width:100%;
+}
+.header ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 7px;
+    border-right: 1px solid white;
+    line-height: 1;
+}
+.header-row{
+    background: rgb(7, 14, 118);
+    width: 100%;
+    align:"right";
+}
+.col-1{
+    background-color: rgb(238, 238, 238);
+    border-right: 2px solid #070e76;
+}
+.footer{
+    height: 40px;
+    background-color: rgb(7, 14, 118);
+    vertical-align: middle;
+    text-align: -webkit-center;
+    color: white;
+}
+.top-menus a{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: tahoma;
+}
+.top-menus{
+    text-align: right;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.top-menus li:last-child{
+    border: 0px solid;
+}
+
+.member-label{
+    font-family: Tahoma;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #070E76;
+}
+.member-box input[type='email'],.member-box input[type='password']{
+    width: 90px;
+    height: 20px;
+}
+.member-box .control-label{
+    text-align: center;
+    padding-top: 0px;
+}
+.member-box .form-group{
+    margin-bottom: 5px;
+}
+.side-menu a{
+    font-family: Tahoma;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #070E76;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: Center;
+}
+.footer{
+    font-family: Tahoma;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.pricing{
+    background: #eeeeee;
+    border-bottom: 1px solid #070E76;
+    position: relative;
+    width: 60%;
+    float: right;
+    text-align: center;
+    line-height: 1;
+}
+.pricing a{
+    font-family: Tahoma;
+    font-size: 9pt;
+    color: #070E76;
+    font-weight: bold;
+    text-decoration: none;
+}
+.styled{
+    position: absolute;
+    width: 21px;
+    height: 0px;
+    /* background: gray; */
+    border-left: 20px solid white;
+    /* border-right: 20px solid; */
+    border-top: 15px solid #eeeeee;
+    left: -15px;
+}
+.page-contents{
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 0px;
+}

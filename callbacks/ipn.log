@@ -1,0 +1,64 @@
+[2016-09-26 07:51 America/New_York]  ipn Called 
+[2016-09-26 07:51 America/New_York]  ipn Called 
+[2016-09-26 07:51 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 970
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=5.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=C99ZYUPK7BCVQ&tax=0.00&address_street=1+Main+St&payment_date=04%3A51%3A48+Sep+26%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=DSV&mc_fee=0.45&address_country_code=US&address_name=DSV+Tiwari&notify_version=3.8&custom=5&payer_status=verified&business=dsvseller%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=ADBTgxx1wXpHIGNv43djMWw8QsOZA7UvJcX9Qgw98If-Uu-mSQaYnerd&payer_email=dsvbuyer%40gmail.com&txn_id=33X47750J1248334A&payment_type=instant&last_name=Tiwari&address_state=CA&receiver_email=dsvseller%40gmail.com&payment_fee=0.45&receiver_id=AL7FBC2GE47RJ&txn_type=web_accept&item_name=TypingCertification.com%3A+new+product&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=5.00&shipping=0.00&ipn_track_id=cc4f2b4ea8e96
+[2016-09-26 07:51 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Mon, 26 Sep 2016 11:51:56 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Dd5fqkZJBg-h6enKNzbx2jrmSodSuvz3rxdRWhvdcIxBWlDjfD9qN3FRbaDzHf1ssOzbBMiNG62l7Gspa-jnZXR4ajmR4SSoW43prcPowEEjtqJ_f5t1aM1uM7aXfqtr03RhZW1M0CE9xlwinJ3KxbOujcCKfGkfIvvzwnkX3gE4UAuIyU3f3Rusy0hRNnfXnOfbp0ibYCykmspAByzLJg_EpH8CqKmQxy7V39GBtvIYjOVwD10kPysLz8PAzIQYc9qudtQI_iuur06d8MCynIKPVqz37iIWpMGGbmraODHNYnS2FZJsQuF35ZBDtE1Wjau2lwz8sf028J0b9yCJicsHZtgXaYFxxn6XIskrO2W_oZagUnfBXv9M1LLV5TtAt9kV9QzQ9uLo0bYmFab1fxAhewxR5PnaT6AAmm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 24-Sep-2026 11:51:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 26-Sep-2018 11:51:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1474890716404964; path=/; expires=Wed, 19-Sep-46 11:51:56 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: e9ffbca45ea99
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3691768151%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Mon, 26 Sep 2016 12:21:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-09-26 07:51 America/New_York]  ipn Called: 33X47750J1248334A 5
+[2016-09-26 07:51 America/New_York]  ipn custom_log Completed[2016-09-26 07:51 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=5.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=C99ZYUPK7BCVQ&tax=0.00&address_street=1+Main+St&payment_date=04%3A51%3A48+Sep+26%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=DSV&mc_fee=0.45&address_country_code=US&address_name=DSV+Tiwari&notify_version=3.8&custom=5&payer_status=verified&business=dsvseller%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=ADBTgxx1wXpHIGNv43djMWw8QsOZA7UvJcX9Qgw98If-Uu-mSQaYnerd&payer_email=dsvbuyer%40gmail.com&txn_id=33X47750J1248334A&payment_type=instant&last_name=Tiwari&address_state=CA&receiver_email=dsvseller%40gmail.com&payment_fee=0.45&receiver_id=AL7FBC2GE47RJ&txn_type=web_accept&item_name=TypingCertification.com%3A+new+product&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=5.00&shipping=0.00&ipn_track_id=cc4f2b4ea8e96 
+[2016-09-26 08:04 America/New_York]  ipn Called 
+[2016-09-26 08:04 America/New_York]  ipn Called 
+[2016-09-26 08:04 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 969
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=5.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=C99ZYUPK7BCVQ&tax=0.00&address_street=1+Main+St&payment_date=05%3A04%3A35+Sep+26%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=DSV&mc_fee=0.45&address_country_code=US&address_name=DSV+Tiwari&notify_version=3.8&custom=1&payer_status=verified&business=dsvseller%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A-6xki9zSqhzaT35SN1MdGgLf6S-A9Smd4N48Mdt9P1xw9kxFluVHfzG&payer_email=dsvbuyer%40gmail.com&txn_id=6NU437207T422125H&payment_type=instant&last_name=Tiwari&address_state=CA&receiver_email=dsvseller%40gmail.com&payment_fee=0.45&receiver_id=AL7FBC2GE47RJ&txn_type=web_accept&item_name=TypingCertification.com%3A+new+product&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=5.00&shipping=0.00&ipn_track_id=52f0ba9a93cb
+[2016-09-26 08:04 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Mon, 26 Sep 2016 12:04:39 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=HLs5ap4yHwjBkMWP3l2fnfMqwGoGZgjTUn2IeVcXMw4_dy_06Z3AMDYjo2pkG6GvUdlUIRo1EVF6fJPPs4-ylWjvXJv3fTWiNONCdxvJrLpUTZA_K7LlVkBEWXqqTo4pl_Fxr8ps5d2G7y0iD4jcF_2gzcBh9L5pHxYHVnrW-kbBPnkJZ98F0u3Bt6aoFSY86aD_dnzCF3CxXSfKdfysnu_NDk3qveC39YT8--iYunJwEea1Aleo5S9d35roXu1aXy4nvyj5H9quYtYrARZeU4TMpXf1znHbPMbt7mx3uYQxfM49xVAvxVvp6jbBRe-_91GQIVmzlxibF-7rk5xO5Er9dz_rLp8WfoFH6aMBYm5wWsl39GfHRIA3q6PPtb6tV7XvJf8Gkw09ALyu27Ytc0i8SEYkHTHlX20k1lMrKWfd_uUnzNJzDYsfupW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 24-Sep-2026 12:04:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 26-Sep-2018 12:04:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1474891479204444; path=/; expires=Wed, 19-Sep-46 12:04:39 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c54f74352d967
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3608078679%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Mon, 26 Sep 2016 12:34:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-09-26 08:04 America/New_York]  ipn Called: 6NU437207T422125H 1
+[2016-09-26 08:04 America/New_York]  ipn custom_log Completed[2016-09-26 08:04 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=5.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=C99ZYUPK7BCVQ&tax=0.00&address_street=1+Main+St&payment_date=05%3A04%3A35+Sep+26%2C+2016+PDT&payment_status=Completed&charset=windows-1252&address_zip=95131&first_name=DSV&mc_fee=0.45&address_country_code=US&address_name=DSV+Tiwari&notify_version=3.8&custom=1&payer_status=verified&business=dsvseller%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=A-6xki9zSqhzaT35SN1MdGgLf6S-A9Smd4N48Mdt9P1xw9kxFluVHfzG&payer_email=dsvbuyer%40gmail.com&txn_id=6NU437207T422125H&payment_type=instant&last_name=Tiwari&address_state=CA&receiver_email=dsvseller%40gmail.com&payment_fee=0.45&receiver_id=AL7FBC2GE47RJ&txn_type=web_accept&item_name=TypingCertification.com%3A+new+product&mc_currency=USD&item_number=&residence_country=US&test_ipn=1&handling_amount=0.00&transaction_subject=&payment_gross=5.00&shipping=0.00&ipn_track_id=52f0ba9a93cb 
